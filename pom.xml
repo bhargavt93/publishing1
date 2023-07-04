@@ -16,6 +16,14 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>publshing1</name>
+     <url>https://maven.pkg.github.com/bhargavt93/publishing1</url>
+   </repository>
+</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -58,6 +66,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			
 		</plugins>
 	</build>
 
